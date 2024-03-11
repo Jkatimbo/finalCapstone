@@ -15,22 +15,23 @@ The Capstone Project for Sentiment Analysis is a Python program that utilizes th
 
 To use the Sentiment Analysis program locally, follow these steps:
 
-1. Clone the project repository:
+    1. Clone the project repository:
 
-   ```bash
-   git clone https://github.com/Jkatimbo/capstone-sentiment-analysis.git
-   cd capstone-sentiment-analysis
-2.Install the required dependencies:
+       ```bash
+          git clone https://github.com/Jkatimbo/capstone-sentiment-analysis.git
+            cd capstone-sentiment-analysis
+     
+     2.Install the required dependencies:
 
-  ```bash
-  pip install -r requirements.txt
+       ```bash
+          pip install -r requirements.txt
 
 ## Usage
 
 To analyze product reviews sentiment using the program, run the following command:
 
- ```bash 
- python sentiment_analysis.py
+    ```bash 
+     python sentiment_analysis.py
 
 This will load the spaCy model, preprocess the data, and provide sentiment analysis results for the sample reviews.
 
